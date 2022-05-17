@@ -1,0 +1,291 @@
+@charset "UTF-8";
+
+* {
+  list-style: none;
+  text-decoration: none;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+body {
+  margin: 0px;
+  padding: 0px;
+  background-color: #e9eaed;
+}
+#navbar {
+  width: 100%;
+  height: 115px;
+  position: inherit;
+  box-align: center;
+  background-color: rgb(0, 0, 0);
+}
+
+#container {
+  width: 64%;
+  height: 115px;
+  display: initial;
+  margin: 0 auto;
+}
+
+#logo {
+  float: left;
+  width: 170px;
+  height: 115px;
+  display: flex;
+  justify-content: flex-end;
+  position: absolute;
+}
+#menu {
+  float: right;
+  width: 75%;
+  height: 45px;
+  text-align: center;
+  display: inline;
+  margin-top: 45px;
+  align-items: center;
+}
+#menu ul {
+  padding-left: 0px;
+  width: 100%;
+  padding-inline-start: 10px;
+  margin-left: auto;
+  margin-right: auto;
+}
+#menu li {
+  display: inline-block;
+}
+#menu li::after {
+  content: "";
+  width: 0%;
+  height: 2px;
+  background: #ef7f1b;
+  display: block;
+  margin: auto;
+  transition: 0.5s;
+}
+#menu li:hover::after {
+  width: 100%;
+}
+
+#menu a {
+  font-size: 17px;
+  color: rgb(255, 255, 255);
+  text-decoration: none;
+  font-weight: 100;
+  padding: 0px 20px;
+  font-size: 15px;
+  display: inline-block;
+  line-height: 25px;
+}
+
+#image1 {
+  width: 100%;
+  height: auto;
+  margin-top: 30px;
+  margin-left: auto;
+  margin-right: auto;
+  background-image: url(images/mediumsize.jpg);
+  background-size: cover;
+}
+#littlemenu {
+  height: auto;
+  width: 100%;
+  display: inline-flex;
+  justify-content: space-evenly;
+  background-color: #000000;
+  opacity: 0.75;
+  color: white;
+  margin-top: 300px;
+}
+#littlemenu ul {
+  height: 150px;
+  width: 64%;
+  padding-inline-start: 0px;
+  position: inherit;
+  display: inline-flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+#littlemenu li {
+  width: 270px;
+  height: 150px;
+  display: inline-flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+#littlemenu li p {
+  display: flex;
+  flex-direction: column;
+  padding-right: 5px;
+  padding-left: 5px;
+}
+#littlemenu li:hover {
+  color: #000000;
+  background-color: #ef7f1b;
+  transition: 1s;
+}
+
+#link {
+  color: white;
+}
+#link:hover {
+  color: #000000;
+}
+
+#iletisim {
+  float: right;
+}
+#hakkimizda {
+  margin-left: auto;
+  margin-right: auto;
+}
+h1 {
+  padding-top: 20px;
+  color: #ef7f1b;
+}
+#egitimlerimiz {
+  float: left;
+}
+#first {
+  margin-top: 20px;
+  padding-bottom: 20px;
+  width: 64%;
+  height: auto;
+  margin-right: auto;
+  margin-left: auto;
+  text-align: center;
+  background-color: white;
+}
+#first p {
+  margin-bottom: 0px;
+  padding: 5px;
+  text-align: left;
+  text-indent: 30px;
+  margin-right: 10px;
+  margin-left: 10px;
+}
+#hizmetlerimiz {
+  width: 64%;
+  height: auto;
+  margin-top: 20px;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: white;
+}
+#bannerBottom {
+  display: inline-flex;
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%;
+  height: auto;
+  justify-content: center;
+}
+#bannerBottom a {
+  width: 150px;
+  height: 40px;
+  background-color: black;
+  opacity: 50%;
+}
+#daha {
+  width: 150px;
+  background-color: #ef7f1b;
+  border-radius: 0 20px 0 20px;
+  padding: 10px 30px;
+  margin-right: auto;
+  margin-left: auto;
+  color: white;
+}
+
+#btm1 {
+  height: 250px;
+  width: 33%;
+  background-color: white;
+  display: inline-table;
+}
+#btm1:hover {
+  background-color: black;
+  opacity: 75%;
+  color: white;
+  transition: 1s;
+}
+#btm2 {
+  height: 250px;
+  width: 33%;
+  background-color: white;
+  margin-left: 35px;
+  margin-right: 35px;
+  display: inline-table;
+}
+#btm2:hover {
+  background-color: black;
+  opacity: 75%;
+  color: white;
+  transition: 1s;
+}
+#btm3 {
+  height: 250px;
+  width: 33%;
+  background-color: white;
+  display: inline-table;
+}
+#btm3:hover {
+  background-color: black;
+  opacity: 75%;
+  color: white;
+  transition: 1s;
+}
+h3 {
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+footer {
+  width: 100%;
+  height: 40px;
+  background-color: #000000;
+  color: white;
+  font-size: 18px;
+  text-align: right;
+  padding-top: 15px;
+  letter-spacing: 1px;
+  margin-top: 15px;
+}
+footer > p {
+  margin: 0px;
+  float: left;
+  font-size: 10px;
+}
+@media (max-width: 700px) {
+  #first p {
+    font-size: 10px;
+  }
+
+  h1 {
+    font-size: 26px;
+  }
+  #littlemenu li p{
+    font-size: 8px;
+  }
+  #logo {
+    width: 89px;
+    height: 60px;
+}
+#hizmetlerimiz p {
+  font-size: 8px;
+  width: 91px;
+  padding: 5px;
+  margin: 0px;
+}
+h3 {
+  font-size: 9px;
+}
+#daha {
+  width: 33%;
+  height: 35px;
+  font-size: 5px;
+}
+}
