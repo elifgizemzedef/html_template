@@ -33,6 +33,7 @@ body {
   display: flex;
   justify-content: flex-end;
   position: absolute;
+  background-color: #e9eaed;
 }
 #menu {
   float: right;
